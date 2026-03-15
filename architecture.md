@@ -1,3 +1,8 @@
+```markdown
+# Lodon Trading System Architecture
+
+```mermaid
+
 flowchart TB
     subgraph DataSources["📊 Data Sources"]
         FMP["FMP API<br/>(Financial Modeling Prep)"]
@@ -76,3 +81,4 @@ flowchart TB
     ExecEngine --> TradeLogs
 
     IBKRServers --> Portfolio
+```
